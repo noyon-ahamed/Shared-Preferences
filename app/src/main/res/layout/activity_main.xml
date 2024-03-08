@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Save All Data"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edname"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:hint="Name here"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:background="#D6D6D6"/>
+
+    <EditText
+        android:id="@+id/edage"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:hint="Age here"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:background="#D6D6D6"/>
+
+    <EditText
+        android:id="@+id/edphonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:hint="Phone number here"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:background="#D6D6D6"/>
+
+    <EditText
+        android:id="@+id/edemail"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:hint="E-mail here"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:inputType="textEmailAddress"
+        android:background="#D6D6D6"/>
+
+
+
+    <EditText
+        android:id="@+id/ednidnumber"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:hint="National (NID) number here"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:background="#D6D6D6"/>
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:text="Save Data"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnclick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:text="Click Result"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        />
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <TextView
+               android:id="@+id/tvresult"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textSize="25sp"
+               />
+
+       </LinearLayout>
+   </ScrollView>
+
+
+</LinearLayout>
